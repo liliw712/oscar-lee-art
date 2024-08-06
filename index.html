@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Lee's Art World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #444;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            margin: 10px;
+            display: inline-block;
+        }
+        footer {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        form label, form input, form textarea {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Oscar Lee's Art World</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="content">
+        <h2>Welcome to Oscar Lee's Creative World</h2>
+        <p>Oscar Lee, a 12-year-old boy who loves to create, always has a lot of whimsical and imaginative ideas in his mind. Through lines, colors, and composition, he brings the pictures in his mind and his observations to life.</p>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300" alt="Latest Artwork 1">
+            <img src="https://via.placeholder.com/300" alt="Latest Artwork 2">
+        </div>
+    </section>
+    <section id="about" class="content">
+        <h2>About Me</h2>
+        <p>Hi, I'm Oscar Lee, a 12-year-old creative boy. I love to use brushes and paints to depict the whimsical ideas and daily observations in my mind.</p>
+        <p>My inspiration comes from everything in life, whether it's nature, people's expressions, or my inner fantasies. I believe that every line and color can express an emotion and a story.</p>
+    </section>
+    <section id="gallery" class="content">
+        <h2>Art Gallery</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300" alt="Artwork 1">
+            <img src="https://via.placeholder.com/300" alt="Artwork 2">
+        </div>
+    </section>
+    <section id="contact" class="content">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Follow me on Instagram: <a href="https://www.instagram.com/oscar_05188/">@oscar_05188</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Oscar Lee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
